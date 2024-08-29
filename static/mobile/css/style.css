@@ -1,0 +1,107 @@
+/*
+ID选择器和class选择器
+ID选择用#标识，只能用一次
+class选择器，用点号标识,可以复用，标识一组
+
+p.center {
+  text-align: center;
+}   标识所有P标签的文字都是居中
+
+*/
+
+/* 全局通用 */
+.layui-container {
+  position: relative;
+  margin: 0 auto;
+  box-sizing: border-box;
+  /* background-color: #FFF8ED; */
+}
+
+.layui-fluid {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 15px
+}
+
+.layui-row:after,
+.layui-row:before {
+  content: "";
+  display: block;
+  clear: both;
+  padding-top: 5px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+li {
+  line-height: 2em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow: hidden; /* 隐藏超出的内容 */
+  white-space: nowrap; /* 内容在同一行显示 */
+  text-overflow: ellipsis; /* 当内容超出时用省略号表示 */
+}
+
+#pic {
+  line-height: 1.9;
+}
+
+.nav {
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.nav-small {
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.intro {
+  text-indent: 2em;
+  line-height: 1.9;
+}
+
+/* home-page */
+.tj {
+  padding-top: 5px;
+  text-align: center;
+}
+
+/* read-page*/
+p {
+  /* 字体大小 */
+  font-size: 16px;
+
+  /* 段落间距 */
+  margin-bottom: 1.5em;
+
+  /* 段落缩进 */
+  text-indent: 2em;
+  /* 行高 */
+  line-height: 2em;
+}
+
+.content {
+  background-color: #FFF8ED;
+}
+
+.nav {
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.nav a {
+  margin: 10px
+}
